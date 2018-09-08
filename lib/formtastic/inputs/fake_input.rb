@@ -11,7 +11,7 @@ module Formtastic
     #   <%= semantic_form_for(@user) do |f| %>
     #     <%= f.inputs do %>
     #       <%= f.input :id, :as => :fake %>
-    #       <%= f.input :tax_class,  :as => :fake, :value => "Class #{f.object.tax_class}"
+    #       <%= f.input :tax_class,  :as => :fake, :value => "Class #{f.object.tax_class}" %>
     #       <%= f.input :first_name, :as => :string %>
     #     <% end %>
     #   <% end %>

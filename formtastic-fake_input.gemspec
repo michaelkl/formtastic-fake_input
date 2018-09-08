@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{formtastic-fake_input}
-  s.version = '0.0.1'
+  s.version = '0.0.2'
 
   s.authors = ['Michael Klimenko']
   s.date = '2018-09-08'
@@ -8,8 +8,11 @@ Gem::Specification.new do |s|
 
   s.summary = 'Fake input class for Formtastic'
   s.description = <<~DESCRIPTION
-  It generates `<span>` tags for data values instead of `<input>`s.
-  This is useful when you need to show read-only value in the resource edit form using all regular input decorations, giving user a clear understanding of its "readonly-ness" and without the ability to pass its value in the form POST request.
+  It generates `span` tags for data values instead of `input`s.
+
+  This is useful when you need to show read-only value in the resource edit form
+  using all regular input decorations, giving user a clear understanding of its
+  "readonly-ness" and without the ability to pass its value in the form POST request.
   DESCRIPTION
 
   s.homepage = 'https://github.com/michaelkl/formtastic-fake_input'
