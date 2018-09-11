@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name = %q{formtastic-fake_input}
-  s.version = '0.0.2'
+  s.version = '0.0.3'
 
   s.authors = ['Michael Klimenko']
-  s.date = '2018-09-08'
+  s.date = '2018-09-11'
   s.email = 'm@klimenko.site'
 
   s.summary = 'Fake input class for Formtastic'
