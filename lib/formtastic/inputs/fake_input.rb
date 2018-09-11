@@ -53,8 +53,12 @@ module Formtastic
                .content_tag(:span, input_options, input_html_options) { content }
       end
 
+      def input_options
+        super.except(:value)
+      end
+
       def content
-        input_options.delete(:value) || object.public_send(method).to_s
+        options[:value] || object.public_send(method).to_s
       end
     end
   end
